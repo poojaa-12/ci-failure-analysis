@@ -328,6 +328,8 @@ pip install -r requirements.txt
 pytest
 ```
 
+On GitHub, **Actions** runs the same test suite on push and pull requests to `main` (see [`.github/workflows/ci.yml`](.github/workflows/ci.yml)).
+
 ---
 
 ## Extending the project
